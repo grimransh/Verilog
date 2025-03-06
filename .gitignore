@@ -1,14 +1,33 @@
-# Ignore compiled Verilog output files
-*.vvp    # Compiled Verilog file (from Icarus Verilog)
-*.out    # Output files
-*.log    # Log files
-*.vcd    # Value Change Dump (waveform)
-*.lxt    # LXT waveform files
+# General generated files
+*.log
+*.out
+*.vcd
+*.wlf
+*.o
+*.tmp
+*.d
 
-# Ignore temporary simulation files
-*.bak    # Backup files
-*.synctex.gz  # SyncTeX files (if using LaTeX)
-*.dmp    # Dump files
-
-# Ignore work directories if using ModelSim/QuestaSim
+# ModelSim/QuestaSim
 work/
+transcript
+vsim.wlf
+
+# Vivado
+.Xil/
+*.pb
+*.jou
+*.log
+*.str
+*.cache/
+*.runs/
+*.vivado.*
+
+# Quartus
+db/
+incremental_db/
+*.qws
+*.sof
+
+# Synopsys Design Compiler
+*.syn
+*.mr
