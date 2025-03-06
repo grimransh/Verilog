@@ -1,33 +1,14 @@
-# General generated files
-*.log
-*.out
+# Ignore Icarus Verilog compiled files
+*.vvp
+a.out
+
+# Ignore waveform files
 *.vcd
-*.wlf
-*.o
-*.tmp
-*.d
+*.lxt
+*.gtkw
 
-# ModelSim/QuestaSim
-work/
-transcript
-vsim.wlf
-
-# Vivado
-.Xil/
-*.pb
-*.jou
+# Ignore temporary and log files
 *.log
-*.str
-*.cache/
-*.runs/
-*.vivado.*
-
-# Quartus
-db/
-incremental_db/
-*.qws
-*.sof
-
-# Synopsys Design Compiler
-*.syn
-*.mr
+*.tmp
+*.out
+*.d
