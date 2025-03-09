@@ -1,3 +1,5 @@
+// Program to test the counter4 module
+
 module testbench;
   reg Clk,Rst;
   wire [3:0] Q;
